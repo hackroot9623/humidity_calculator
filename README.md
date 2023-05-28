@@ -1,63 +1,43 @@
-# humidity_calculator
+# Psicrometer Calculator
+
 ![image](https://github.com/hackroot9623/humidity_calculator/assets/89597632/1bedafcc-d7d0-4409-84e2-614d3d50a913)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This is a simple GUI application built with PyQt5 that functions as a psicrometer calculator. A psicrometer is a device used to measure relative humidity and calculate other psychrometric properties.
 
-## Description
+## Requirements
 
-A brief description of the project, its purpose, and main features.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Documentation](#documentation)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
+- Python 3.x
+- PyQt5
 
 ## Installation
 
-Step-by-step instructions on how to install and set up the project. Include any dependencies or prerequisites that need to be installed. Specify any configuration steps or environment variables required.
+1. Clone the repository or download the code files.
+2. Install the required dependencies using pip:
+  ```bash
+  pip install PyQt5
+  ```
 
 ## Usage
 
-Explain how to use the project once it is installed. Provide examples or code snippets to illustrate common use cases. List available command-line options, parameters, or configurations.
+To run the application, navigate to the project directory and execute the following command:
+  ```bash
+  python main_psicrom.py
+  ```
 
-## Features
+The psicrometer calculator window will appear, where you can enter the required values and perform the calculations.
 
-- Feature 1: Description of the feature
-- Feature 2: Description of the feature
-- ...
+## Functionality
 
-## Documentation
+The psicrometer calculator provides two main functions:
 
-Provide links to more detailed documentation, if available. Include information about APIs, libraries, or external resources used in the project.
+1. **Humidity Calculation**: Enter the dry bulb temperature and dew point temperature, and the application will calculate the relative humidity.
 
-## Examples
+2. **S.Term Calculation**: Enter the normal temperature and wind speed, and the application will calculate the apparent temperature (thermal sensation).
 
-Include additional examples or sample code to demonstrate the project's usage. Showcase different functionalities or use cases.
+## Contributing
 
-## Troubleshooting
-
-Address common issues or errors that users may encounter. Provide solutions or workarounds if possible.
-
-## Contribution Guidelines
-
-Explain how others can contribute to the project. Include information on bug reporting, feature requests, and pull requests.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Acknowledgments
-
-Give credit to any contributors, libraries, or resources used in the project. Express gratitude to those who have provided support or inspiration.
-
-## Contact Information
-
-Provide a way for users to contact the project maintainer or team. Include links to relevant communication channels or social media profiles.
+This project is licensed under the [MIT License](LICENSE).
