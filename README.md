@@ -41,3 +41,10 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions, feel free to reach out:
+
+- [Email](mailto:eliser.santiesteban.1996@gmail.com)
+- [Twitter](https://twitter.com/hackroot231)
